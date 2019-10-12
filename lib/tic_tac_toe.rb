@@ -58,7 +58,7 @@ class TicTacToe
         else 
           turn
        end
-       
+      end 
        def won?
          winner = nil 
          WIN_COMBINATIONS.each do |combo|
@@ -96,5 +96,5 @@ class TicTacToe
             puts "Cat's Game!"
           end  
       end
-       end 
+        
 end
