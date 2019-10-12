@@ -74,6 +74,8 @@ class TicTacToe
        def full?
             turn_count == 9     
        end
-       draw
+       
+       def draw?
+         puts draw
        end 
 end
