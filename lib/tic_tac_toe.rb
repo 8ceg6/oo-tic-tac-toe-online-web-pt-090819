@@ -83,5 +83,9 @@ class TicTacToe
       def over?
         won? || draw?
       end 
+      
+      def winner 
+          @board[won?[0]]
+      end
        end 
 end
