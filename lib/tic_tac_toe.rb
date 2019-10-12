@@ -68,6 +68,6 @@ class TicTacToe
          winner = combo
        end
          end
-         winner
+         
        end 
 end
