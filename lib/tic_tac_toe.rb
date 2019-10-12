@@ -67,7 +67,7 @@ class TicTacToe
          elsif combo.all? {|win| @board[win] == "O"}
          winner = combo
        end
-         end
-       end
+         
+       
        end 
 end
