@@ -76,6 +76,7 @@ class TicTacToe
        end
        
        def draw?
+         full? || !won?
          puts draw?
        end
        end 
